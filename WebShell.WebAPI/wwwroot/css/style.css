@@ -1,0 +1,53 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 10px;
+}
+
+
+body {
+    margin: 0;
+    font-size: 2.2rem;
+    background: #0037DA;
+    color: #F2F2F2;
+    font-family: Consolas, sans-serif;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 120rem;
+    padding: 1.5rem 4rem;
+}
+
+.commands {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10rem;
+}
+
+/*.commands__inner {
+    display: flex;
+}*/
+
+.command__path {
+    padding-right: 1rem;
+    color: #E74856;
+}
+
+.new-command__body {
+    caret-shape: block;
+    color: #F9F1A5;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    width: 100%;
+    height: max-content;
+    resize: none;
+    font: inherit;
+    animation: cursor 1s infinite step-end;
+    caret-color: #F9F1A5;
+}
